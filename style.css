@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Caveat', cursive;
 }
 
+h2 {
+  font-size: 80px;
+}
+
 .card {
   margin-top: 1em;
 }
@@ -27,6 +31,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 main {
-  max-width: 1200px;
-  margin: 0 auto;
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("img/Nova-3.jpg");
+  max-height: calc(100vh - 90px);
+  /* Full height */
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-aside {
+  font-size: 24px;
 }
