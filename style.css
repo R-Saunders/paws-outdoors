@@ -76,3 +76,43 @@ body::before {
   height: 100%;
   background: rgba(255,255,255,0.8);
 }
+
+footer {
+  position: relative;
+  background-color: antiquewhite;
+  margin-top: 1em;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer li {
+  margin: 8px;
+}
+
+footer img {
+  border-radius: 8px;
+  max-height: 40px;
+}
+
+footer i {
+  font-size: 44px;
+}
+
+.card-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-inner {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em auto;
+}
