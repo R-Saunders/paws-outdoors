@@ -35,19 +35,38 @@ main {
 }
 
 .parallax {
-  /* The image used */
   background-image: url("img/Nova-3.jpg");
   max-height: calc(100vh - 90px);
-  /* Full height */
   height: 1000px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .image-aside {
   font-size: 24px;
+}
+
+.image-aside-text {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 2em;
+ position: relative;
+}
+
+body {
+  background-image: url(img/dog-house.svg);
+  position: relative;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.8);
 }
