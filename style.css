@@ -50,7 +50,7 @@ main {
 }
 
 .image-aside img {
-  max-height: 500px;
+  height: 500px;
   object-fit: cover;
 }
 
@@ -58,7 +58,6 @@ main {
  display: flex;
  flex-direction: column;
  justify-content: center;
- padding: 2em;
  position: relative;
  text-shadow: 1px 1px 2px  lightgrey;
 }
@@ -115,4 +114,10 @@ footer i {
   justify-content: space-between;
   align-items: center;
   margin: 1em auto;
+}
+
+#qualifications {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
 }
