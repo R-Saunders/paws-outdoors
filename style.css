@@ -121,3 +121,7 @@ footer i {
   margin: 0 auto;
   justify-content: space-around;
 }
+
+.qualifications-cards {
+  padding: 1em;
+}
