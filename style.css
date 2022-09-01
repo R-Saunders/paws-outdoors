@@ -6,6 +6,15 @@ h2 {
   font-size: 3rem;
 }
 
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+
 .card {
   margin-top: 1rem;
 }
@@ -36,8 +45,7 @@ main {
 
 .parallax {
   background-image: url("img/Nova-3.jpg");
-  max-height: calc(100vh - 90px);
-  height: 1000px;
+  height: calc(100vh - 90px);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,4 +162,12 @@ footer i {
 
 .qualifications-cards {
   padding: 1em;
+}
+
+.qualifications-cards > .card {
+  height: 100%;
+}
+
+.row {
+  position: relative;
 }
