@@ -5,7 +5,7 @@ const comfortaa = Comfortaa({ subsets: ["latin"] });
 export default function HeroHome() {
 	return (
 		<section className={`${comfortaa.className} relative bg-[url(/nova-wall-lake-district.jpg)] bg-cover bg-center bg-no-repeat`}>
-			<div className="absolute inset-0 bg-amber-50/60 sm:bg-transparent sm:from-amber-50/75 sm:to-amber-50/25 sm:bg-gradient-to-r"></div>
+			<div className="absolute inset-0 from-amber-50/50 to-amber-50/50 bg-gradient-to-b sm:bg-transparent backdrop-blur-sm sm:from-amber-50/50 sm:to-amber-50/25 sm:bg-gradient-to-r"></div>
 
 			<div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
 				<div className="max-w-xl text-center sm:text-left">

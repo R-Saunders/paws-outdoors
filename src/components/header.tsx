@@ -29,7 +29,7 @@ export default function Example() {
 					>
 						{/* TODO - Replace with next/image */}
 						<img className="h-16 w-auto" src="logo.svg" alt="" />
-						<span className={`${caveat.className} text-5xl`}>
+						<span className={`${caveat.className} text-5xl text-lime-900`}>
 							Paws Outdoors
 						</span>
 					</a>
@@ -63,7 +63,7 @@ export default function Example() {
 				onClose={setMobileMenuOpen}
 			>
 				<div className="fixed inset-0 z-20" />
-				<Dialog.Panel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-amber-50  px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+				<Dialog.Panel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-amber-50  px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-lime-900/10">
 					<div className="flex items-center justify-between">
 						<a
 							href="/"
