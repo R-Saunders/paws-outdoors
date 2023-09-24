@@ -24,7 +24,7 @@ export default function Example() {
 			>
 				<div className="flex lg:flex-1">
 					<a
-						href="#"
+						href="/"
 						className="-m-1.5 p-1.5 flex items-center justify-center gap-4"
 					>
 						{/* TODO - Replace with next/image */}
@@ -66,7 +66,7 @@ export default function Example() {
 				<Dialog.Panel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-amber-50  px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 					<div className="flex items-center justify-between">
 						<a
-							href="#"
+							href="/"
 							className="-m-1.5 p-1.5 flex items-center justify-center gap-4"
 						>
 							{/* TODO - Replace with next/image */}
