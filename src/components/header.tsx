@@ -27,6 +27,7 @@ export default function Example() {
 						href="#"
 						className="-m-1.5 p-1.5 flex items-center justify-center gap-4"
 					>
+						{/* TODO - Replace with next/image */}
 						<img className="h-16 w-auto" src="logo.svg" alt="" />
 						<span className={`${caveat.className} text-5xl`}>
 							Paws Outdoors
@@ -68,6 +69,7 @@ export default function Example() {
 							href="#"
 							className="-m-1.5 p-1.5 flex items-center justify-center gap-4"
 						>
+							{/* TODO - Replace with next/image */}
 							<img className="h-16 w-auto" src="logo.svg" alt="" />
 							<span className={`${caveat.className} text-5xl text-lime-900`}>
 								Paws Outdoors
