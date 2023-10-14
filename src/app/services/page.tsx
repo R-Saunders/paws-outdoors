@@ -1,3 +1,10 @@
+import HeroServices from "@/components/hero-services";
+
 export default function Services() {
-	return <main>Services</main>;
+	return (
+		<main className="">
+			<HeroServices/>
+
+		</main>
+	);
 }

@@ -8,7 +8,7 @@ export const dynapuff = DynaPuff({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Paws Outdoors",
-	description: "Dog walking and pet services in North Norfolk and Broadland",
+	description: "Dog walking and pet services in the North Norfolk and Broadland area's",
 };
 
 export default function RootLayout({
@@ -18,7 +18,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={`${inter.className} bg-amber-50`}>
+			<body
+				className={`${inter.className} bg-amber-50 flex flex-col align-middle`}
+			>
 				<Header />
 				{children}
 			</body>

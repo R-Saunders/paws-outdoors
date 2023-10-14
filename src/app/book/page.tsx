@@ -1,3 +1,3 @@
 export default function Contact() {
-	return <main>Contact Us</main>;
+	return <main className="pt-24">Contact Us</main>;
 }
