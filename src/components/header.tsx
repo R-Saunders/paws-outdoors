@@ -17,7 +17,7 @@ export default function Example() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
 	return (
-		<header className="absolute z-10 min-w-full text-lime-900">
+		<header className="absolute z-10 min-w-full text-lime-900 bg-amber-50">
 			<nav
 				className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
 				aria-label="Global"
@@ -28,8 +28,8 @@ export default function Example() {
 						className="-m-1.5 p-1.5 flex items-center justify-center gap-4"
 					>
 						{/* TODO - Replace with next/image */}
-						<img className="h-16 w-auto" src="logo.svg" alt="" />
-						<span className={`${caveat.className} text-5xl text-lime-900`}>
+						<img className="h-16 w-auto" src="logo.svg" alt="Paws Outdoors logo" />
+						<span className={`${caveat.className} sm:text-5xl text-4xl text-lime-900`}>
 							Paws Outdoors
 						</span>
 					</a>
@@ -63,15 +63,15 @@ export default function Example() {
 				onClose={setMobileMenuOpen}
 			>
 				<div className="fixed inset-0 z-20" />
-				<Dialog.Panel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-amber-50  px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-lime-900/10">
+				<Dialog.Panel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-amber-50  px-4 py-4  sm:ring-1 sm:ring-lime-900/10">
 					<div className="flex items-center justify-between">
 						<a
 							href="/"
 							className="-m-1.5 p-1.5 flex items-center justify-center gap-4"
 						>
 							{/* TODO - Replace with next/image */}
-							<img className="h-16 w-auto" src="logo.svg" alt="" />
-							<span className={`${caveat.className} text-5xl text-lime-900`}>
+							<img className="h-16 w-auto" src="logo.svg" alt="Paws Outdoors Logo" />
+							<span className={`${caveat.className} sm:text-5xl text-4xl text-lime-900`}>
 								Paws Outdoors
 							</span>
 						</a>
