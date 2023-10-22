@@ -21,7 +21,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${inter.className} bg-amber-50 flex flex-col items-center `}
+				className={`${inter.className} bg-amber-50 flex flex-col items-center overflow-x-hidden`}
 			>
 				<Header />
 				{children}
