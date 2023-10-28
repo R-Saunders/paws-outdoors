@@ -6,7 +6,7 @@ const comfortaa = Comfortaa({ subsets: ["latin"] });
 export default function HeroServices() {
 	return (
 		<section
-			className={`${comfortaa.className} flex md:flex-nowrap flex-wrap lg:max-h-screen pt-24 h-screen`}
+			className={`${comfortaa.className} flex md:flex-nowrap flex-wrap lg:max-h-screen pt-24 h-screen`} style={{maxHeight: "800px"}}
 		>
 			<div className="md:w-1/2 relative w-screen md:h-full h-96">
 				<Image
