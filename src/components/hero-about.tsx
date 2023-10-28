@@ -6,7 +6,7 @@ const comfortaa = Comfortaa({ subsets: ["latin"] });
 export default function HeroAbout() {
 	return (
 		<section
-			className={`${comfortaa.className} overflow-hidden bg-amber-50 my-24`}
+			className={`${comfortaa.className} overflow-hidden bg-amber-50 my-24 p-4`}
 		>
 			<div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
 				<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">

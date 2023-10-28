@@ -29,9 +29,9 @@ function classNames(...classes: string[]) {
 
 export default function Values() {
 	return (
-		<section className={`${comfortaa.className} bg-amber-50 my-12`}>
+		<section className={`${comfortaa.className} py-4 bg-amber-50 my-12`}>
 			<div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-				<div className="mx-auto max-w-4xl text-center bg-lime-900 pt-8 pb-16 px-8 sm:px-16 text-amber-50 rounded-3xl shadow-3xl">
+				<div className="relative isolate overflow-hidden mx-auto max-w-6xl text-center bg-lime-900 pt-8 pb-16 px-8 sm:px-16 text-amber-50 rounded-3xl shadow-3xl">
 					<h2 className="text-4xl tracking-tight sm:text-4xl my-8">
 						Meet the Founder
 					</h2>
@@ -43,9 +43,28 @@ export default function Values() {
 						for an eclectic menagerie of animals, from snakes to owls, hamsters
 						to ferrets, and domestic birds among others.
 					</p>
+					<svg
+						viewBox="0 0 1024 1024"
+						className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+						aria-hidden="true"
+					>
+						<circle
+							cx={512}
+							cy={512}
+							r={512}
+							fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)"
+							fillOpacity="0.7"
+						/>
+						<defs>
+							<radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+								<stop stopColor="#485b31" />
+								<stop offset={1} stopColor="#d9f99d" />
+							</radialGradient>
+						</defs>
+					</svg>
 				</div>
 
-				<div className="mt-16 space-y-16">
+				<div className="mt-16 space-y-16 py-4">
 					{features.map((feature, featureIdx) => (
 						<div
 							key={feature.name}
