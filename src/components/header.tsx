@@ -58,7 +58,7 @@ export default function Example() {
 						<a
 							key={item.name}
 							href={item.href}
-							className="text-sm font-semibold leading-6 text-lime-900 px-2 py-1 hover:text-lime-700 last:bg-lime-900 rounded last:text-amber-50 last:hover:bg-lime-800 last:hover:text-amber-50"
+							className="text-xl font-semibold leading-6 text-lime-900 px-2 py-1 hover:text-lime-700 last:bg-lime-900 rounded last:text-amber-50 last:hover:bg-lime-800 last:hover:text-amber-50"
 						>
 							{item.name}
 						</a>
