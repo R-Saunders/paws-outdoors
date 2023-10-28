@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Comfortaa } from "next/font/google";
 
 const comfortaa = Comfortaa({ subsets: ["latin"] });
@@ -101,6 +102,7 @@ export default function Values() {
 								)}
 							>
 								<div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-amber-50">
+									{/* {TODO: Next/Image} */}
 									<img
 										src={feature.imageSrc}
 										alt={feature.imageAlt}
