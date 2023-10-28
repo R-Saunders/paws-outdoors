@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			{/* {TODO: Make better favicon} */}
+			{/*TODO: Make better favicon*/}
 			<link rel="icon" href="/favicon.ico" sizes="any" />
 			<body
 				className={`${inter.className} bg-amber-50 flex flex-col items-center overflow-x-hidden`}
