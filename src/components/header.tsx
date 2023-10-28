@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Caveat, Comfortaa } from "next/font/google";
+import Image from "next/image";
 
 const caveat = Caveat({ subsets: ["latin"] });
 const comfortaa = Comfortaa({ subsets: ["latin"] });
@@ -25,11 +26,19 @@ export default function Example() {
 				<div className="flex lg:flex-1">
 					<a
 						href="/"
-						className="-m-1.5 p-1.5 flex items-center justify-center gap-4"
+						className="-m-1.5 p-1.5 flex items-center justify-center gap-4 "
 					>
-						{/* TODO - Replace with next/image */}
-						<img className="h-16 w-auto" src="logo.svg" alt="Paws Outdoors logo" />
-						<span className={`${caveat.className} sm:text-5xl text-4xl text-lime-900`}>
+						<div className="relative h-16 w-16">
+							<Image
+								src="/logo.svg"
+								fill={true}
+								alt="Paws Outdoors Loggo"
+								className="h-16"
+							/>
+						</div>
+						<span
+							className={`${caveat.className} sm:text-5xl text-4xl text-lime-900`}
+						>
 							Paws Outdoors
 						</span>
 					</a>
@@ -69,9 +78,17 @@ export default function Example() {
 							href="/"
 							className="-m-1.5 p-1.5 flex items-center justify-center gap-4"
 						>
-							{/* TODO - Replace with next/image */}
-							<img className="h-16 w-auto" src="logo.svg" alt="Paws Outdoors Logo" />
-							<span className={`${caveat.className} sm:text-5xl text-4xl text-lime-900`}>
+							<div className="relative h-16 w-16">
+								<Image
+									src="/logo.svg"
+									fill={true}
+									alt="Paws Outdoors Loggo"
+									className="h-16"
+								/>
+							</div>
+							<span
+								className={`${caveat.className} sm:text-5xl text-4xl text-lime-900`}
+							>
 								Paws Outdoors
 							</span>
 						</a>
